@@ -25,6 +25,14 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# check rubygems to see what the latest version is
+# A modern CSS framework based on Flexbox
+gem 'bulma-rails', '~> 0.7.5'
+
+# optional
+# Ruby on rails wrapper for Bulma framework extensions
+gem 'bulma-extensions-rails', '>= 6.2.7'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 

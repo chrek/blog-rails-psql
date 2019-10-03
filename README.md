@@ -1,24 +1,35 @@
-# README
+# blog-rails-psql
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Blog based on Rails with Bulma CSS Framework
+--------------------------------------------
 
-Things you may want to cover:
+This site is using Rails and Bulma CSS.
 
-* Ruby version
+Bulma is installed like any other gem powered apps with the Gemfile.
 
-* System dependencies
+## Database: Postgresql
 
-* Configuration
+## What has been implemented
+* Cutomized Sass and Sass variables
 
-* Database creation
+* Navigation
+* Use of layouts and include files 
 
-* Database initialization
+To test the site locally:
 
-* How to run the test suite
+From the root of project run the commands:
 
-* Services (job queues, cache servers, search engines, etc.)
+1. `bundle install`
+2. `rails serve`
 
-* Deployment instructions
+<hr>
 
-* ...
+## References
+
+1. [guides.rubyonrails](https://guides.rubyonrails.org/getting_started.html)
+2. [jwebcat](http://jwebcat.github.io/tables-sass/)
+3. [dev.to](https://dev.to/justalever/lets-build-with-ruby-on-rails---a-blog-with-comments-17lc)
+4. [codeselfstudy](https://codeselfstudy.com/blog/bulma-rails-5/)
+5. [blog.blackninjadojo](http://blog.blackninjadojo.com/css/bulma/2019/02/27/how-to-create-a-layout-for-your-rails-application-using-bulma.html)
+6. [devcenter.heroku](https://devcenter.heroku.com/articles/getting-started-with-rails6)
+

@@ -10,6 +10,35 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
+ *= require_tree . 
  *= require_self
  */
+
+@charset "utf-8";
+
+/* import google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Roboto+Slab|Open+Sans');
+
+/* override the Bulma variables here */
+
+@import "variables";
+
+/* import bulma and optionally the extensions */
+
+@import "bulma";
+@import "bulma-extensions";
+
+/* custom scss works here or in the relevant files */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: family-sans-serif;
+}
+
+label {
+  font-family: family-sans-serif;
+}
