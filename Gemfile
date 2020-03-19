@@ -62,3 +62,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rails-html-sanitizer', '~> 1.3'
+
+gem "actionview", ">= 6.0.2.2"
+
